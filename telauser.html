@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <h1 id="boasVindas"></h1>
+    <button onclick="editarTe()" id="btn-ShowEdition">Editar</button>
+    <h3 id="infoEdition">Clique no botão<br>
+        abaixo e personalize<br>
+         a tela como preferir</h3>
+    
+    <form name="editarTela" id="editarTela" class = "editarTe">
+        
+        <label>Nome do cliente:</label><br>
+        <input type="text" name="Cnome" id="Cnome" size="20"><br><br>
+        <label>Background:</label><br>
+        <input type="radio" id="radio-Corfuazul" name="Ccorfundo" onclick="corFundo('#1E90FF')">Azul<br>
+        <input type="radio" id="radio-Corfurosa" name="Ccorfundo" onclick="corFundo('#FF00FF')">rosa<br>
+        <input type="radio" id="radio-Corfuverde" name="Ccorfundo" onclick="corFundo('#32CD32')">verde<br>
+        <input type="radio" id="radio-Corfucinza" name="Ccorfundo" onclick="corFundo('#808080')">Cinza<br>
+        <label>Cor da fonte:</label><br>
+        <input type="radio" name="Ccorfonte" id="radio-Corfobranca" onclick="corFonte('#fff')">branco<br>
+        <input type="radio" name="Ccorfonte" id="radio-Corfopreta" onclick="corFonte('#000')">Preto<br>
+        <input type="button" value="Gravar Edição" id="btn-salvarEdicao" onclick="salvarEdicao()">
+
+
+        
+    </form>
+
+     
+    <div id="organizardivs01">
+        <div id="containner01">
+            <img src="./img/Emagreca.png" width="200" height="200" >>
+            <h3>Curso para emagrecer em 20 dias</h3>
+            <h5>250,00  1x ou 10x R$25,00 </h5>
+            <button id="btn01" onclick="UltimoButton ()">Comprar</button>
+        </div>
+        <div id="containner02">
+            <img src="./img/enriquecer.jpg" width="200" height="200" >>
+            <h3>Curso para enriquecer em 20 dias</h3>
+            <h5>500,00  1x ou 10x R$50,00 </h5>
+            <button id="btn02" onclick="UltimoButton01 ()">Comprar</button>
+        </div>
+        <div id="containner03">
+            <img src="./img/vestibular.jpg" width="200" height="200" >>
+            <h3>Curso para vestibular 2022</h3>
+            <h5>2000,00  1x ou 10x R$200,00 </h5>
+            <button id="btn03" onclick="UltimoButton02 ()">Comprar</button>
+        </div>
+    </div>
+    <div id="organizardivs02">
+        <div id="containner04">
+            <img src="./img/concursos.png" width="200" height="200" >>
+            <h3>Curso para passar em concurso</h3>
+            <h5>1000,00  1x ou 10x R$100,00 </h5>
+            <button id="btn04" onclick="UltimoButton03 ()">Comprar</button>
+        </div>
+        <div id="containner05">
+            <img src="./img/bolsa.jpg" width="200" height="200" >>
+            <h3>Curso para investir na bolsa de valores</h3>
+            <h5>2000,00  1x ou 10x R$200,00 </h5>
+            <button id="btn05" onclick="UltimoButton04 ()">Comprar</button>
+        </div>
+        <div id="containner06">
+            <img src="./img/daytrade.jpg" width="200" height="200" >>
+            <h3>Curso de daytrade (juro que não é furada)</h3>
+            <h5>2100,00  1x ou 10x R$400,00 </h5>
+            <button id="btn06" onclick="UltimoButton05 ()">Comprar</button>
+        </div>
+    </div>
+
+    <h1 id="textoFinal"></h1>
+
+</body>
+<script src="script.js"></script>
+
+</html>

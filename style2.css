@@ -1,0 +1,194 @@
+#editarTela {
+    position: absolute;
+    top:0px;
+    left:0px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 5px;
+    display: none;
+
+}
+h1{
+    top: 0%;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin: 60px;
+
+}
+
+#infoEdition{
+    top: 0%;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+
+}
+
+#containner01{
+    width: 200px;
+    height: 100;
+    background: rgba(204, 198, 198, 0.527);
+    border-radius: 15px;
+    box-shadow: 10px 2px 100px black, 3px 6px 20px black;
+    padding: 30px 40px;
+    padding-bottom: 2px;
+    transform: translateX(80px);
+    margin-top: 2%;
+    display: inline-block;
+
+}
+#containner02{
+    width: 200px;
+    height: 100;
+    background: rgba(204, 198, 198, 0.527);
+    border-radius: 15px;
+    box-shadow: 10px 2px 100px black, 3px 6px 20px black;
+    padding: 30px 40px;
+    padding-bottom: 2px;
+    transform: translateX(250px);
+    margin-top: 2%;
+    display: inline-block;
+
+}
+#containner03{
+    width: 200px;
+    height: 100;
+    background: rgba(204, 198, 198, 0.527);
+    border-radius: 15px;
+    box-shadow: 10px 2px 100px black, 3px 6px 20px black;
+    padding: 30px 40px;
+    padding-bottom: 2px;
+    transform: translateX(450px);
+    margin-top: 2%;
+    display: inline-block;
+
+}
+#containner04{
+    width: 200px;
+    height: 100;
+    background: rgba(204, 198, 198, 0.527);
+    border-radius: 15px;
+    box-shadow: 10px 2px 100px black, 3px 6px 20px black;
+    padding: 30px 40px;
+    padding-bottom: 2px;
+    transform: translateX(80px);
+    margin-top: 2%;
+    display: inline-block;
+    
+
+}
+#containner05{
+    width: 200px;
+    height: 100;
+    background: rgba(204, 198, 198, 0.527);
+    border-radius: 15px;
+    box-shadow: 10px 2px 100px black, 3px 6px 20px black;
+    padding: 30px 40px;
+    padding-bottom: 2px;
+    transform: translateX(250px);
+    margin-top: 2%;
+    display: inline-block;
+
+}
+#containner06{
+    width: 200px;
+    height: 100;
+    background: rgba(204, 198, 198, 0.527);
+    border-radius: 15px;
+    box-shadow: 10px 2px 100px black, 3px 6px 20px black;
+    padding: 30px 40px;
+    padding-bottom: 2px;
+    transform: translateX(450px);
+    margin-top: 2%;
+    display: inline-block;
+
+}
+#btn01{
+    padding: 15px 50px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn01:hover{
+    background:red;
+    transition: ease-in-out .25s;
+}
+#btn02{
+    padding: 15px 50px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn02:hover{
+    background:red;
+    transition: ease-in-out .25s;
+}
+#btn03{
+    padding: 15px 50px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn03:hover{
+    background:red;
+    transition: ease-in-out .25s;
+}
+#btn04{
+    padding: 15px 50px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn04:hover{
+    background:red;
+    transition: ease-in-out .25s;
+}
+#btn05{
+    padding: 15px 50px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn05:hover{
+    background:red;
+    transition: ease-in-out .25s;
+}
+#btn06{
+    padding: 15px 50px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn06:hover{
+    background:red;
+    transition: ease-in-out .25s;
+}
+
+
+

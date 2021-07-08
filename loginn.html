@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Pagamento</title>
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="confir.html">
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logo.jpeg" width="200" height="80">
+            </a>
+        </nav>
+        <h1>Payment Control</h1>
+        <div class='container'>
+            <h3>Sing Up</h3>
+            <form action="index.html" method="post" id="loginInicio">
+
+                <div class='input-field'>
+                    <input type="text" id='emailLog' placeholder="Digite seu nome:">
+                    <label for="nome">Username:</label>
+                </div>
+
+                
+                <div class ='input-field'>
+                    <input type="password" name="senha" id="senhaLog" placeholder="Digite sua senha:">
+                    <label for="senha">Password:</label>
+                </div>
+
+
+
+                
+            </form>
+            <div class="center">
+                <button  id="btn-login" onclick="loginValidate()">Enter</button>
+
+            </div>
+
+
+            <div class='links'>
+                <a href="confir.html"><p>Lost your Password?</p></a>
+            </div>
+
+            <div class='links'>
+                <a href="cad.html"><p>cadastrar</p></a>
+            </div>
+        <script src="script.js"></script>       
+    </body>
+</html>
